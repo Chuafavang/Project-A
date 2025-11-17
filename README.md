@@ -4,7 +4,6 @@
 
 We focus only on **Barabási–Albert (BA)** Networks and **Watts–Strogatz (WS)** Networks.
 ### Function Input Format
-```matlab
 W = create_initial_W_matrix(n, d, p, m, seed, network)
 
 ### Watts–Strogatz (WS) Networks
