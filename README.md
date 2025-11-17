@@ -20,4 +20,6 @@ Parameters:
 **Note: if d is not needed for Barabási–Albert networks, set d=[]. Similarly, if m is not needed for Watts–Strogatz network, set m=[]**
 
 ## 2. Function to plot the network
-For simplicity, we only plot undirected graph.  The node size is corresponding to its number of neighbours
+For simplicity, we only plot undirected graph.<br>
+The node size is corresponding to its number of neighbours.
+
