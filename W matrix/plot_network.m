@@ -33,7 +33,7 @@ h.MarkerSize = nodeSize; h.NodeColor = [0.95 0.15 0.15]; h.NodeLabel = {};
 if strcmp(network,'WS')
     d_val = p.Results.d; if isempty(d_val), d_val = round(mean(deg)); end
     p_val = p.Results.p; if isempty(p_val), p_val = 0.1; end
-    titleStr = sprintf('Watts-Strogatz (n=%d, <d>=%d, p=%.2f)', n, d_val, p_val);
+    titleStr = sprintf('Watts-Strogatz (n=%d, d=%d, p=%.2f)', n, d_val, p_val);
     fprintf('d (mean degree): %g\n', d_val);
     fprintf('p (rewiring) : %.2f\n', p_val);
 else % 'BA'
